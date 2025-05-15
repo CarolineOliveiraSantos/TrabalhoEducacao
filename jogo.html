@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game | Play Now!</title>
+</head>
+<style>
+
+body{
+    margin: 0;
+    background-color: #222222;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-right: 60vh;
+    margin-bottom: 2%;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #ffdf50;
+}
+
+button {
+    margin-top: 2%;
+    padding: 1em 2em;
+    border: 2px solid black;
+    border-radius: 20px;
+    background: #ffdf50;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+</style>
+<body>
+    <h1 >Nível 1 - LIBRAS</h1>
+    <div class="videoOne">
+        <iframe width="520" height="315"
+        src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&">
+        </iframe>
+    </div>
+    
+    <div class="options">
+
+        <button onclick="rightAnswer()">Alguém tem alguma dúvida?</button>
+        <button onclick="wrongAnswer()">Alguém quer fazer alguma pergunta?</button>
+        <button onclick="wrongAnswer()">Alguém já ouviu falar desse autor?</button>
+
+    </div>
+    <script>
+        function rightAnswer() {
+          alert("Resposta correta!");
+        }
+        function wrongAnswer() {
+            alert("Resposta errada. Tente novamente!");
+        }
+      </script>
+
+</body>
+</html>
