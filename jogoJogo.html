@@ -28,29 +28,52 @@ h1{
 
 button {
     margin-top: 2%;
+    flex-direction: row;
+    justify-content: space-between;
     padding: 1em 2em;
     border: 2px solid black;
     border-radius: 20px;
     background: #ffdf50;
     font-weight: bold;
-    cursor: pointer;
-    transition: background 0.3s;
+}
+
+a{
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.2em 5em;
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffdf50;
+    margin-bottom: 3%;
+}
+.videoOne{
+    margin-top: 3%;
 }
 
 </style>
 <body>
+    
+    <header>
+    <div class="head">
     <h1 >Nível 2 - LIBRAS</h1>
+        <a href="videodoisLibras.html">
+         Versão em Libras
+        </a>
+        <a href="jogoJogoJogo.html">
+            Próxima fase →
+        </a>
+    </div>
     <div class="videoOne">
         <iframe width="520" height="315"
         src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&">
         </iframe>
     </div>
-
+    </header>
     <div class="options">
 
         <button onclick="wrongAnswer()">Como você está?</button>
-        <button onclick="wrongAnswer()">Precisa da chave pix?</button>
-        <button onclick="rightAnswer()">Você quer bolo?</button>
+        <button onclick="wrongAnswer()">Você precisa da chave pix?</button>
+        <button onclick="rightAnswer()">Você quer comprar um bolo?</button>
 
     </div>
     <script>
