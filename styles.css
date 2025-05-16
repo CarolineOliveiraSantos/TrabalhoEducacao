@@ -82,7 +82,7 @@
 
 .barra-lateral {
   width: 5px;
-  height: 90%;
+  height: 70%;
   background-color: black;
   margin-right: 30px;
 }
@@ -94,4 +94,21 @@
 p {
   font-size: 1.1rem;
   line-height: 1.5;
+}
+ .bloco {
+  display: flex;
+  height: 100vh;
+  align-items: right;
+  padding-left: 50px;
+}
+
+.barralateral {
+  width: 5px;
+  height: 90%;
+  background-color: black;
+  margin-right: 30px;
+}
+
+.texto {
+  max-width: 600px;
 }
