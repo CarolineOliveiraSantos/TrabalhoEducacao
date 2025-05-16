@@ -1,13 +1,29 @@
 .center {
   max-width: 50rem;
+  gap: 1rem;
 }
 .videoOne {
   min-height: 30rem;
 }
-
+.box{
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+}
+.box > iframe{
+  min-height: auto;
+}
 @media only screen and (max-width: 900px) {
   .videoOne {
     min-height: 20rem;
     height: auto;
   }
+  .box > iframe{
+  min-height: 20rem;
+}
+  .box{
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
 }
