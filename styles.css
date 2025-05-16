@@ -73,10 +73,12 @@
     color: inherit;
   }
 .depoimento{
+  margin: 0;
+  padding: 0;
   display: flex;
-  flex-direction: row;
-  max-width: 600px;
+  justify-content: center;
   align-items: center;
+  height: 100vh;
   text-align: center;
   position: relative;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -90,6 +92,12 @@
 
 .conteudo {
   max-width: 600px;
+}
+.barra-lateral {
+  width: 5px;
+  height: 90%;
+  background-color: black;
+  margin-right: 30px;
 }
 
 p {
@@ -105,5 +113,4 @@ p {
 
 .texto {
   max-width: 600px;
-  text-align: right;
 }
