@@ -80,13 +80,6 @@
   padding-left: 50px;
 }
 
-.barra-lateral {
-  width: 5px;
-  height: 70%;
-  background-color: black;
-  margin-right: 30px;
-}
-
 .conteudo {
   max-width: 600px;
 }
@@ -98,17 +91,11 @@ p {
  .bloco {
   display: flex;
   height: 100vh;
-  align-items: right;
+  align-items: center;
   padding-left: 50px;
-}
-
-.barralateral {
-  width: 5px;
-  height: 90%;
-  background-color: black;
-  margin-right: 30px;
 }
 
 .texto {
   max-width: 600px;
+  justify-content: right;
 }
