@@ -108,6 +108,9 @@ p {
   padding: 0 1rem;
   height: auto;
 }
+.texto > p {
+  text-align: end;
+}
 
 .texto {
   max-width: 600px;
