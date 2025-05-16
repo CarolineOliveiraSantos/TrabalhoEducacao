@@ -75,6 +75,8 @@
 .depoimento{
   margin: 0;
   padding: 0;
+  margin-left: 20%;
+  margin-right: 20%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -93,22 +95,28 @@
 .conteudo {
   max-width: 600px;
 }
-.barra-lateral {
-  width: 5px;
+/* .barra-lateral {
+  width: 5px; 
   height: 90%;
   background-color: black;
   margin-right: 30px;
-}
+} */
 
 p {
   font-size: 1.1rem;
   line-height: 1.5;
 }
  .bloco {
-  display: flex;
-  height: 100vh;
-  align-items: center;
   padding-left: 50px;
+  margin: 0;
+  margin-right: 10%;
+  padding: 0;
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  height: 100vh;
+  text-align: right;
+  position: relative;
 }
 
 .texto {
