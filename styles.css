@@ -73,8 +73,12 @@
     color: inherit;
   }
 .depoimento{
+  display: flex;
+  flex-direction: row;
   max-width: 600px;
+  align-items: center;
   text-align: center;
+  position: relative;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
   .container {
