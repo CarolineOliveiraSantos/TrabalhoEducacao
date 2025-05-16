@@ -97,5 +97,5 @@ p {
 
 .texto {
   max-width: 600px;
-  justify-content: right;
+  text-align: right;
 }
