@@ -1,0 +1,13 @@
+.center {
+  max-width: 50rem;
+}
+.videoOne {
+  min-height: 30rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .videoOne {
+    min-height: 20rem;
+    height: auto;
+  }
+}
