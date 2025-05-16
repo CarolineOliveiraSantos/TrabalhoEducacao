@@ -80,6 +80,7 @@ button a {
   text-align: center;
   max-width: 50rem;
   align-self: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .container {
   display: flex;
@@ -92,15 +93,16 @@ button a {
 .conteudo {
   max-width: 600px;
 }
-.barra-lateral {
+/*.barra-lateral {
   width: 4px;
   height: 25rem;
   background-color: black;
   margin-right: 30px;
 }
+  */
 
 p {
-  font-size: 1.1rem;
+  font-size: 1rem;
   line-height: 2rem;
 }
 .bloco {
@@ -113,7 +115,7 @@ p {
 }
 
 .texto {
-  max-width: 600px;
+  max-width: 700px;
 }
 
 .root {
